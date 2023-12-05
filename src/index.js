@@ -2,7 +2,6 @@
  * This function installs the raychat widget
  * @param {string} token The first value. Get the token from https://raychat.io Function will return if token is null
  */
-
 export function raychat(token = null) {
   if (!token) return;
 

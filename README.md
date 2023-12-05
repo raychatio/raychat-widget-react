@@ -1,8 +1,6 @@
-# RayChat Package For React
+# RayChat widget installer for ReactJS
 
 ![raychat](https://raychat.io/_next/static/media/raychat-logo-english.486d7b96.svg)
-
-[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-size-image]][npm-url] [![NPM downloads][npm-downloads-image]][downloads-url] [![MIT License][license-image]][license-url]
 
 #### The new online chat experience begins here!
 
@@ -51,12 +49,8 @@ MIT
 
 ### Author
 
-> Mahdi Vajdi <mahdivajdii@gmail.com>
+Mahdi Vajdi<br>
+Github: [@mahdi-vajdi][author-github]<br>
+Email: <mahdivajdii@gmail.com><br>
 
-[license-image]: http://img.shields.io/npm/l/raychat-react.svg?style=flat
-[license-url]: LICENSE
-[npm-url]: https://npmjs.org/package/raychat-react
-[npm-version-image]: http://img.shields.io/npm/v/raychat-react.svg?style=flat
-[npm-downloads-image]: http://img.shields.io/npm/dm/raychat-react.svg?style=flat
-[npm-downloads-size-image]: https://img.shields.io/bundlephobia/minzip/raychat-react.svg?style=flat
-[downloads-url]: https://npmcharts.com/compare/raychat-react?minimal=true
+[author-github]: https://github.com/mahdi-vajdi
