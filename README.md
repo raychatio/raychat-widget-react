@@ -25,14 +25,13 @@ npm i @raychat/widget-reactjs
 Wrote to App.js
 
 ```js
-import React from "react";
-import { RayChat } from "@raychat/widget-reactjs";
+import { useEffect } from "react";
+import { raychat } from "@mahdivajdi/raychat-react";
 
 function App() {
-  const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
-
-  useEffect((token) => {
-    raychat();
+  useEffect(() => {
+    const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
+    raychat(token);
   }, []);
 }
 ```
