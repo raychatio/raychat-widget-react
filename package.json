@@ -1,6 +1,7 @@
 {
   "name": "@mahdivajdi/raychat-react",
   "version": "0.1.1",                     
+  "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
   "source": "src/index.js",            
   "main": "dist/index.js",
@@ -15,6 +16,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahdi-vajdi/raychat-react.git"
-  }
+    "url": "https://github.com/mahdi-vajdi/raychat-react.git"
+  },
+  "author": "Mahdi Vajdi <mahdivajdii@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "raychat",
+    "react",
+    "raychat.io",
+    "چت آنلاین",
+    "رایچت"
+  ],
+  "bugs": {
+    "url": "https://github.com/mahdi-vajdi/raychat-react/issues"
+  },
+  "homepage": "https://raychat.io"
 }
