@@ -6,7 +6,7 @@
 
 #### The new online chat experience begins here!
 
-You spend a lot of time and money to direct users to your site, but you easily lose these potential customers. Talk to users, know their needs, examine their behavior, and instill in them a good sense of specialness. Reicht has provided this platform for you.
+Get closer to your leads and customers with a website chat widget. Adding a chat widget to your website will make your customer service experience even more exceptional.
 
 - [Installation](#installation)
 - [Usage](#USE)
@@ -28,7 +28,7 @@ Wrote to App.js
 
 ```js
 import React from "react";
-import RayChat from " @raychat/widget-reactjs";
+import { RayChat } from "@raychat/widget-reactjs";
 
 function App() {
   const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
@@ -51,7 +51,7 @@ MIT
 
 ### Author
 
-> Mahdi Vajdi
+> Mahdi Vajdi <mahdivajdii@gmail.com>
 
 [license-image]: http://img.shields.io/npm/l/raychat-react.svg?style=flat
 [license-url]: LICENSE
