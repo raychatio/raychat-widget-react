@@ -7,8 +7,8 @@
 Get closer to your leads and customers with a website chat widget. Adding a chat widget to your website will make your customer service experience even more exceptional.
 
 - [Install](#install)
-- [Use in ReactJS](#use-react)
-- [Use in NextJS](#use-next)
+- [Use in ReactJS](#UseinReactJS)
+- [Use in NextJS](<#UseinNextJS(js/ts)>)
 - [Props](#props)
 - [License](#license)
 - [Author](#author)
