@@ -12,9 +12,7 @@ Get closer to your leads and customers with a website chat widget. Adding a chat
 - [License](#license)
 - [Author](#author)
 
-### Installation
-
-> Get `token` from [raychat.io](https://raychat.io/signup)
+## Installation
 
 ```bash
 npm i @raychat/widget-reactjs
@@ -22,7 +20,9 @@ npm i @raychat/widget-reactjs
 
 ## USE Raychat Package
 
-Wrote to App.js
+> Get `token` from [raychat.io][raychat-landing]
+
+Wrote to App.js:
 
 ```js
 import { useEffect } from "react";
@@ -53,3 +53,4 @@ Github: [@mahdi-vajdi][author-github]<br>
 Email: <mahdivajdii@gmail.com><br>
 
 [author-github]: https://github.com/mahdi-vajdi
+[raychat-landing]: https://raychat.io/signup
