@@ -34,12 +34,13 @@ import { useEffect } from "react";
 import { raychat } from "@mahdivajdi/raychat-react";
 
 function App() {
-  useEffect(() => {
-    const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
-    raychat(token);
-  }, []);
+  return (
+    <div className="App">
+      <!-- other components -->
 
-  // rest of the code
+      <Raychat token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" />
+    </div>
+  );
 }
 ```
 
