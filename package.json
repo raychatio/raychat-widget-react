@@ -1,17 +1,27 @@
 {
-  "name": "@mahdivajdi/raychat-react",
+  "name": "@raychat/widget-react",
   "version": "0.3.6",
   "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
-  "source": "src/index.ts",
+  "source": "src/index.tsx",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
     "microbundle": "^0.15.1"
   },
   "repository": {

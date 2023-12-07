@@ -1,2 +1,0 @@
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e||self).raychatReact={})}(this,function(e){e.raychat=function(e){if(e){window.RAYCHAT_TOKEN=e;var t=document,n=t.createElement("script");n.src="https://widget-react.raychat.io/install/widget.js",n.async=!0,t.getElementsByTagName("head")[0].appendChild(n)}}});
-//# sourceMappingURL=index.umd.js.map
