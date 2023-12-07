@@ -30,8 +30,7 @@ npm i @raychat/widget-react
 Wrote to App.js:
 
 ```js
-import { useEffect } from "react";
-import { raychat } from "@mahdivajdi/raychat-react";
+import Raychat from "@mahdivajdi/raychat-react";
 
 function App() {
   return (
