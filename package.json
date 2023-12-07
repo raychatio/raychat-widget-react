@@ -1,5 +1,5 @@
 {
-  "name": "@raychat/widget-react",
+  "name": "@mahdivajdi/widget-react",
   "version": "0.4.1",
   "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
