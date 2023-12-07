@@ -9,7 +9,7 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch",
+    "dev": "microbundle watch"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
