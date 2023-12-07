@@ -3,7 +3,7 @@
   "version": "0.3.6",
   "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
-  "source": "src/index.ts",
+  "source": "src/index.tsx",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
