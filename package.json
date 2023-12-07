@@ -10,21 +10,17 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.5",
-    "@babel/preset-env": "^7.23.5",
-    "@babel/preset-react": "^7.23.3",
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
     "microbundle": "^0.15.1"
   },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "https://github.com/mahdi-vajdi/raychat-react.git"
   },
@@ -38,7 +34,7 @@
     "رایچت"
   ],
   "bugs": {
-    "url": "https://github.com/mahdi-vajdi/raychat-react/issues"
+    "url": "https://raychat.io"
   },
   "homepage": "https://raychat.io"
 }

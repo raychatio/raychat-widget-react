@@ -8,12 +8,21 @@ declare global {
 
 interface RaychatProps {
   token: string;
+<<<<<<< HEAD
   type?: "normal";
 }
 
 const Raychat: React.FC<RaychatProps> = ({ token, type }) => {
   useEffect(() => {
     window.RAYCHAT_TOKEN = token;
+=======
+  type?: string;
+}
+
+const Raychat: React.FC<RaychatProps> = ({ token, type = "normal" }) => {
+  useEffect(() => {
+    if (typeof window !== undefined) window.RAYCHAT_TOKEN = token;
+>>>>>>> dev-react
 
     if (type === "normal") {
       const script = document.createElement("script");
