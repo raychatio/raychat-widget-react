@@ -11,10 +11,15 @@
     "build": "microbundle",
     "dev": "microbundle watch"
   },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0"
+  },
   "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
     "microbundle": "^0.15.1"
   },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "https://github.com/mahdi-vajdi/raychat-react.git"
   },

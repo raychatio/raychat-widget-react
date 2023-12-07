@@ -1,2 +1,2 @@
-function e(e){if(e){window.RAYCHAT_TOKEN=e;var t=document,a=t.createElement("script");a.src="https://widget-react.raychat.io/install/widget.js",a.async=!0,t.getElementsByTagName("head")[0].appendChild(a)}}export{e as raychat};
+import{useEffect as t}from"react";var e=function(e){var n=e.token,r=e.type,a=void 0===r?"normal":r;return t(function(){if(void 0!==typeof window&&(window.RAYCHAT_TOKEN=n),"normal"===a){var t=document.createElement("script");return t.type="text/javascript",t.async=!0,t.src="https://widget-react.raychat.io/install/widget.js",document.head.appendChild(t),function(){document.head.removeChild(t)}}},[n,a]),null};export{e as default};
 //# sourceMappingURL=index.module.js.map
