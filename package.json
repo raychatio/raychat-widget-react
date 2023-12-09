@@ -1,6 +1,6 @@
 {
   "name": "@mahdivajdi/widget-react",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
   "source": "src/index.tsx",
