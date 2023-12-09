@@ -12,9 +12,9 @@ interface RaychatProps {
 }
 
 const Raychat: React.FC<RaychatProps> = ({ token, type = "normal" }) => {
-  if (!token) return;
-
   useEffect(() => {
+    if (!token) return;
+
     if (typeof window !== undefined) window.RAYCHAT_TOKEN = token;
 
     if (type === "normal") {
