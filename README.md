@@ -13,15 +13,11 @@ Get closer to your leads and customers with a website chat widget. Adding a chat
 - [License](#license)
 - [Author](#author)
 
-<a name="install"></a>
-
 ## Install
 
 ```bash
 npm i @raychat/widget-react
 ```
-
-<a name="use-react"></a>
 
 ## Use in ReactJS
 
@@ -30,56 +26,48 @@ npm i @raychat/widget-react
 Wrote to App.js:
 
 ```js
-import Raychat from "@mahdivajdi/raychat-react";
+import Raychat from "@raychat/widget-react";
 
 function App() {
   return (
     <div className="App">
       <!-- other components -->
 
-      <Raychat token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" />
+      <Raychat token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" type="normal" />
     </div>
   );
 }
 ```
 
-<a name="use-next"></a>
-
 ## Use in NextJS (js/ts)
 
 > Get `token` from [raychat.io][raychat-landing]
 
-Wrote to \_App.js/\_App.ts
+Wrote to \_app.js/\_app.tsx
 
 ```js
-import { raychat } from "@mahdivajdi/raychat-react";
-import { useEffect } from "react";
+import Raychat from "@raychat/widget-react";
 
-export default function App({ Component, pageProps }) {
-  useEffect(() => {
-    const token = "6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2";
-    raychat(token);
-  }, []);
-
-  // rest of the code
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <div>
+      <Component {...pageProps} />;
+      <Raychat token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" type="normal" />
+    </div>
+  );
 }
 ```
 
-<a name="props"></a>
-
 ## Props
 
-| props | defaultValue | description                                              |
-| ----- | ------------ | -------------------------------------------------------- |
-| token | null         | Get `token` from [raychat.io](https://raychat.io/signup) |
-
-<a name="license"></a>
+| props | required | defaultValue | description                                           |
+| ----- | -------- | ------------ | ----------------------------------------------------- |
+| token | true     | undefined    | Get `token` from [raychat.io][raychat-get-token]      |
+| type  | false    | normal       | The type of script: [normal, fast-laod, seo-friendly] |
 
 ### License
 
 MIT
-
-<a name="author"></a>
 
 ### Author
 
@@ -89,5 +77,6 @@ Email: [mahdivajdii@gmail.com][author-email]<br>
 
 [logo]: https://raychat.io/_next/static/media/raychat-logo-english.486d7b96.svg
 [raychat-landing]: https://raychat.io/signup
+[raychat-get-token]: https://raychat.io/dashboard/widget-installation
 [author-github]: https://github.com/mahdi-vajdi
 [author-email]: mailto:mahdivajdii@gmail.com
