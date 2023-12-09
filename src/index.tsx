@@ -13,9 +13,9 @@ interface RaychatProps {
 
 const Raychat: React.FC<RaychatProps> = ({ token, type = "normal" }) => {
   useEffect(() => {
-    if (!token) return;
+    if (!token || token.length === 0) return undefined;
 
-    if (typeof window !== undefined) window.RAYCHAT_TOKEN = token;
+    if (typeof window !== "undefined") window.RAYCHAT_TOKEN = token;
 
     if (type === "normal") {
       const script = document.createElement("script");
