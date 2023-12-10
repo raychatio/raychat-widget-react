@@ -1,11 +1,12 @@
 {
   "name": "@mahdivajdi/widget-react",
-  "version": "0.4.7",
+  "version": "0.5.0",
   "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
   "source": "src/index.tsx",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
