@@ -1,6 +1,6 @@
 {
   "name": "@mahdivajdi/widget-react",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Raychat's reactjs package for installing widget script.",
   "type": "module",
   "source": "src/index.tsx",
@@ -21,7 +21,7 @@
     "@types/react-dom": "^18.2.17",
     "microbundle": "^0.15.1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/raychatio/raychat-widget-react"
   },
