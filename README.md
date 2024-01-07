@@ -16,27 +16,26 @@ Get closer to your leads and customers with a website chat widget. Adding a chat
 ## Install
 
 ```bash
-npm i @raychat/widget-react
+npm i raychat-widget-react
 ```
 
 ## Use in ReactJS
 
 > Get `token` from [raychat.io][raychat-landing]
 
-Wrote to App.js:
+Wrote to index.js:
 
 ```js
-import Raychat from "@raychat/widget-react";
+// Other imports...
+import RaychatWidget from "raychat-widget-react";
 
-function App() {
-  return (
-    <div className="App">
-      <!-- other components -->
-
-      <Raychat token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" type="normal" />
-    </div>
-  );
-}
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+    <RaychatWidget token="c030a005-xxxx-xxxx-xxxx-19ead862dc7f" type="SEO_FRIENDLY"/>
+  </React.StrictMode>
+);
 ```
 
 ## Use in NextJS (js/ts)
@@ -46,13 +45,13 @@ function App() {
 Wrote to \_app.js/\_app.tsx
 
 ```js
-import Raychat from "@raychat/widget-react";
+import RaychatWidget from "@raychat/widget-react";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div>
       <Component {...pageProps} />;
-      <Raychat token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" type="normal" />
+      <RaychatWidget token="6d5b4ba5-xxxx-xxxx-xxxx-48498f3fc2a2" type="SEO_FRIENDLY" />
     </div>
   );
 }
@@ -60,10 +59,10 @@ export default function App({ Component, pageProps }: AppProps) {
 
 ## Props
 
-| props | required | defaultValue | description                                           |
-| ----- | -------- | ------------ | ----------------------------------------------------- |
-| token | true     | undefined    | Get `token` from [raychat.io][raychat-get-token]      |
-| type  | false    | normal       | The type of script: [normal, fast-laod, seo-friendly] |
+| Props | Required | Default Value | Description                                            |
+| ----- | -------- | ------------- | ------------------------------------------------------ |
+| token | true     | undefined     | Get `token` from [raychat.io][raychat-get-token]       |
+| type  | false    | NORMAL        | Widget load types: [ NORMAL, SEO_FRIENDLY, FAST_LOAD ] |
 
 ### License
 
