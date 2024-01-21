@@ -3,8 +3,7 @@ import React, { useEffect } from "react";
 declare global {
   interface Window {
     RAYCHAT_TOKEN: string;
-    SEO_FRIENDLY: boolean;
-    FAST_LOAD: boolean;
+    LOAD_TYPE: string;
   }
 }
 
@@ -33,9 +32,9 @@ const RaychatWidget: React.FC<RaychatProps> = ({ token, type = "NORMAL" }) => {
       window.RAYCHAT_TOKEN = token;
 
       if (type.toUpperCase() === "SEO_FRIENDLY") {
-        window.SEO_FRIENDLY = true;
+        window.LOAD_TYPE = "SEO_FRIENDLY";
       } else if (type.toUpperCase() === "FAST_LOAD") {
-        window.FAST_LOAD = true;
+        window.LOAD_TYPE = "FAST_LOAD";
       }
     }
 
